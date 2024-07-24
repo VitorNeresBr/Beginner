@@ -1,0 +1,2 @@
+p = float(input('What is the price of the product??US$ '))
+print('The new price of the product that cost US${} now with 5% discount is US${:.2f}'.format(p, p*0.95))
