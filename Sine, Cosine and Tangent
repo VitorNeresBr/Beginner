@@ -1,0 +1,9 @@
+from math import sin, cos, tan, radians
+
+an = float(input('Enter an angle'))
+s = sin(radians(an))
+print('The sine of the angle {} is {:.3}'.format(an, s))
+c = cos(radians(an))
+print('The cosine of the angle {} is {:.3f}'.format(an, c))
+t = tan(radians(an))
+print('The tangent of the angle {} is {:.3f}'.format(an, t))
