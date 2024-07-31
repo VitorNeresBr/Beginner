@@ -1,0 +1,10 @@
+from random import randint
+
+print('I WILL THINK OF A NUMBER BETWEEN 0 AND 5. TRY TO GUESS...')
+machi = randint(0, 5)
+player = int(input('Choose a number between 0 and 5 '))
+print('ANALYZING...')
+if machi == player:
+    print('CONGRATULATIONS!!! YOU GOT IT RIGHT!!!')
+else:
+    print('YOU WERE WRONG, I WAS THINKING ABOUT {}'.format(machi))
